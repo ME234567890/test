@@ -38,6 +38,7 @@ class Utilities {
       ]
     }
   }
+}
           img({img, x, y}) {
               var c = document.getElementById("myCanvas");
               var ctx = c.getContext("2d");
