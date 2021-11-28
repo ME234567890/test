@@ -35,12 +35,14 @@ class Utilities {
             }
           }
         }
-        ]
+      ]
+    }
+  }
           img({img, x, y}) {
               var c = document.getElementById("myCanvas");
-  var ctx = c.getContext("2d");
-  var img = document.getElementById("scream");
-  return ctx.drawImage(img, 90, 130, 50, 60, 10, 10, 50, 60);
+              var ctx = c.getContext("2d");
+              var img = document.getElementById("scream");
+              return ctx.drawImage(img, 90, 130, 50, 60, 10, 10, 50, 60);
   }
   }
         Scratch.extensions.register(new Utilities());
