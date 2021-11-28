@@ -23,18 +23,19 @@ class Utilities {
           arguments: {
             img: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'apple'
+              defaultValue: 'https://me234567890.github.io/test/gfd.png'
             },
             x: {
               type: Scratch.ArgumentType.NUMBER,
-              defaultValue: 'apple'
+              defaultValue: '0'
             },
             y: {
               type: Scratch.ArgumentType.NUMBER,
-              defaultValue: 'APPLE'
+              defaultValue: '0'
             }
           }
         }
+        ]
           img({img, x, y}) {
               var c = document.getElementById("myCanvas");
   var ctx = c.getContext("2d");
