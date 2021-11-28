@@ -41,4 +41,5 @@ class Utilities {
   var img = document.getElementById("scream");
   return ctx.drawImage(img, 90, 130, 50, 60, 10, 10, 50, 60);
   }
+  }
         Scratch.extensions.register(new Utilities());
